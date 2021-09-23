@@ -8,11 +8,19 @@ img {
 .cardsContainer {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .addFoodForm {
   width: 80%;
   margin: 10px 10%;
+}
+
+label {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 5px;
 }
 
 .search {
@@ -21,5 +29,13 @@ img {
 }
 
 .btn {
-  margin: 10px 10%;
+  margin: 20px 10%;
+}
+
+.emptyContainer {
+  text-align: center;
+  display: block;
+}
+.emptyContainer img {
+  width: 50%;
 }

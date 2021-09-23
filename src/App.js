@@ -4,7 +4,7 @@ import allFoods from "./foods.json";
 import FoodBox from "./components/FoodBox"
 import AddFoodForm from './components/AddFoodForm';
 import Search from './components/Search';
-import { Card, Row, Col, Divider, Input, Button } from "antd";
+import { Divider, Button } from "antd";
 
 
 function App() {
